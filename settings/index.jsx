@@ -9,7 +9,7 @@ function mySettings(props) {
       <Section
         title={
           <Text bold align="center">
-            Spotify HR Settings
+            Spotify Settings
           </Text>
         }
       >
