@@ -1,4 +1,4 @@
-# Spotify HR Fitbit App for Versa 4
+# Spotify Fitbit App for Versa 4
 
 This is source code for the Spotify HR on the Fitbit Versa 4.
 
@@ -53,3 +53,16 @@ If it's still not working, please open the Fitbit app on your phone and sync you
 1. [Visit Spotify in your browser](https://www.spotify.com/)
 2. Click “Log Out” from the menu
 3. Open the Fitbit app, go to Spotify HR settings and log in again.
+
+
+## Getting Started
+
+1. Create a spotify [developer](https://developer.spotify.com/dashboard/a) account and create an app.
+    1. note the clientID and client secret to put into the `common/spotify.secret.js`.
+    1. Include the redirect URL (https://app-settings.fitbitdevelopercontent.com/simple-redirect.html) in the spotify developer app after creating one.
+
+1. Side-load the app.
+```bash
+$ npx fitbit
+fitbit$ build-and-install
+```
